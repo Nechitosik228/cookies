@@ -1,4 +1,4 @@
-from flask import Response, request, make_response, render_template, Request
+from flask import Response, request, render_template
 from sqlalchemy import select
 
 from . import app
