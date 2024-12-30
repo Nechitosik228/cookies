@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block main %}
+
+    <form action = "/delete" method = "POST">
+        <p><h3>Delete Task</h3></p>
+        <p><input type = 'text' name = 'name'/></p>
+        <button type="submit">Submit</button>
+    </form>
+    
+{% endblock %}
